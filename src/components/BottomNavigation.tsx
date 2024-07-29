@@ -7,16 +7,16 @@ const BottomNavigation: React.FC = () => {
 
 	return (
 		<nav className='bottom-navigation bg-purple-600 flex justify-around py-2'>
-			<button onClick={() => navigate('/')} className='text-white'>
+			<button onClick={() => navigate('/')} className='text-white hover:text-purple-950'>
 				<FaBuilding size={24} />
 			</button>
-			<button className='text-white'>
+			<button className='text-white hover:text-purple-950'>
 				<FaCalendarAlt size={24} />
 			</button>
-			<button className='text-white'>
+			<button className='text-white hover:text-purple-950'>
 				<FaList size={24} />
 			</button>
-			<button className='text-white'>
+			<button className='text-white hover:text-purple-950'>
 				<FaUser size={24} />
 			</button>
 		</nav>

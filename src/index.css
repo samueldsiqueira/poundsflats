@@ -33,7 +33,7 @@
 }
 
 .filter-button.active {
-    background-color: #6200ea;
+    background-color: #7B2CBF;
     color: #fff;
 }
 
@@ -47,7 +47,7 @@
 .add-first-property-button {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    border: 1px solid #6200ea;
+    border: 1px solid #7B2CBF;
     border-radius: 20px;
     background-color: #fff;
     color: #6200ea;
@@ -57,7 +57,7 @@
     display: flex;
     justify-content: space-around;
     padding: 1rem;
-    background-color: #6200ea;
+    background-color: #7B2CBF;
     position: absolute;
     bottom: 0;
     width: 100%;
