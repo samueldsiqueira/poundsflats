@@ -22,11 +22,11 @@ const Header: React.FC = () => {
 
 	return (
 		<header className='flex justify-between items-center p-4'>
-			<button onClick={handleBack} className='back-button text-purple-600'>
+			<button onClick={handleBack} className='back-button text-main'>
 				<FaArrowLeft size={24} />
 			</button>
-			<h1 className='text-xl font-semibold'>Bem-vindo, Raphael!</h1>
-			<button className='add-property-button text-purple-600 flex items-center'>
+
+			<button className='add-property-button text-main flex items-center'>
 				<FaPlus size={24} className='mr-2' />
 				Cadastrar imóvel
 			</button>

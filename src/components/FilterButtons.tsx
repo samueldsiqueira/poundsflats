@@ -8,23 +8,26 @@ const FilterButtons: React.FC = () => {
 	};
 
 	return (
-		<div className='filter-buttons flex space-x-4'>
-			<button
-				className={`filter-button ${
-					activeFilter === 'Todos os flats' ? 'active bg-purple-600 text-white' : 'bg-gray-300 text-black'
-				}`}
-				onClick={() => handleButtonClick('Todos os flats')}
-			>
-				Todos os flats
-			</button>
-			<button
-				className={`filter-button ${
-					activeFilter === 'Indisponíveis' ? 'active bg-purple-600 text-white' : 'bg-gray-300 text-black'
-				}`}
-				onClick={() => handleButtonClick('Indisponíveis')}
-			>
-				Indisponíveis
-			</button>
+		<div className=' flex-col '>
+			<div className='flex justify-center w-3/4 '>
+				<h1 className='text-xl font-semibold'>Bem-vindo, Samuel!</h1>
+			</div>
+			<div className='filter-buttons'>
+				<button
+					className={`filter-button ${
+						activeFilter === 'Todos os flats' ? 'active bg-main text-white' : 'bg-gray-300 text-black'
+					}`}
+					onClick={() => handleButtonClick('Todos os flats')}
+				>
+					Todos os flats
+				</button>
+				<button
+					className={`filter-button ${activeFilter === 'Indisponíveis' ? 'active bg-main text-white' : 'bg-gray-300 text-black'}`}
+					onClick={() => handleButtonClick('Indisponíveis')}
+				>
+					Indisponíveis
+				</button>
+			</div>
 		</div>
 	);
 };
