@@ -25,9 +25,8 @@ const Header: React.FC = () => {
 			<button onClick={handleBack} className='back-button text-main'>
 				<FaArrowLeft size={34} />
 			</button>
-
-			<button className='add-property-button text-main flex items-center'>
-				<FaPlus size={24} className='mr-2' />
+			<button onClick={() => navigate('/property')} className='add-property-button text-main flex items-center'>
+				<FaPlus size={34} className='mr-2' />
 				Cadastrar imóvel
 			</button>
 			{showConfirmation && (

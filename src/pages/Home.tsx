@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import Header from '../components/HeaderComponent';
 import FilterButtons from '../components/FilterButtons';
 import WelcomeMessage from '../components/WelcomeMessage';

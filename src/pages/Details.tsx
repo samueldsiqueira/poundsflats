@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import ImageComponent from '../components/ImageComponent';
-import testeResultImage from '../assets/teste_result.png'; // Importando a imagem
+import testeResultImage from '../assets/teste_result.png';
 
 const Details: React.FC = () => {
 	const navigate = useNavigate();

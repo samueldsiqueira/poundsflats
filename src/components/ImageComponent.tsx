@@ -1,5 +1,3 @@
-// src/components/ImageComponent.tsx
-
 import React from 'react';
 
 interface ImageComponentProps {
