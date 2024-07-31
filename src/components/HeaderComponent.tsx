@@ -23,7 +23,7 @@ const Header: React.FC = () => {
 	return (
 		<header className='flex justify-between items-center p-4'>
 			<button onClick={handleBack} className='back-button text-main'>
-				<FaArrowLeft size={24} />
+				<FaArrowLeft size={34} />
 			</button>
 
 			<button className='add-property-button text-main flex items-center'>

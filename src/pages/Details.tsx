@@ -11,7 +11,7 @@ const Details: React.FC = () => {
 	};
 
 	return (
-		<div className='app-container'>
+		<div>
 			<h1>Samuel D' Siqueira</h1>
 			<div>
 				<button onClick={handleNavigation} className='filter-button'>

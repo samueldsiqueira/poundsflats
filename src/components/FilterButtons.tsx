@@ -8,11 +8,11 @@ const FilterButtons: React.FC = () => {
 	};
 
 	return (
-		<div className=' flex-col '>
-			<div className='flex justify-center w-3/4 '>
+		<div className=' flex-col w-full '>
+			<div className='flex ml-5 justify-start  '>
 				<h1 className='text-xl font-semibold'>Bem-vindo, Samuel!</h1>
 			</div>
-			<div className='filter-buttons'>
+			<div className='flex justify-start '>
 				<button
 					className={`filter-button ${
 						activeFilter === 'Todos os flats' ? 'active bg-main text-white' : 'bg-gray-300 text-black'
