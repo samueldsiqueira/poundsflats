@@ -15,7 +15,7 @@ const ConfirmationDialog: React.FC<ConfirmationDialogProps> = ({ message, onConf
 
 	const handleCancel = () => {
 		setIsVisible(false);
-		setTimeout(onCancel, 300); // Ajuste o tempo para coincidir com a duração da animação
+		setTimeout(onCancel, 300);
 	};
 
 	return (

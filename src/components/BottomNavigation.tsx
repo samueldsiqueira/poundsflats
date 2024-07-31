@@ -1,5 +1,3 @@
-// src/components/BottomNavigation.tsx
-
 import React from 'react';
 import { FaBuilding, FaCalendarAlt, FaList, FaUser } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
@@ -24,7 +22,7 @@ const BottomNavigation: React.FC = () => {
 				</button>
 				<div className='flex justify-center w-full'>
 					<button>
-						<div className='  bg-gray-300 w-36 h-2 rounded-full'></div>
+						<div className='  bg-gray-300 w-36 h-2 rounded-full mx-auto'></div>
 					</button>
 				</div>
 			</nav>
